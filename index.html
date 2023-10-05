@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CheckMe</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/main.css" />
+  <script defer type="module" src="./js/main.js"></script>
+
+  <!-- SWIPER -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="inner">
+
+      <a href="javascript:void(0)" class="logo">
+        <img src="./img/logo.png" alt="Check Me Logo">
+      </a>
+
+      <div class="top-right-section">
+        <ul class="top-text-menu">
+          <li><a href="javascript:void(0)">로그인</a></li>
+          <li><a href="javascript:void(0)">공지사항</a></li>
+          <li><a href="javascript:void(0)">고객센터</a></li>      
+        </ul>
+        
+        <div class="top-icon-menu">
+          <div class="search-wrap">
+            <div class="search">
+              <div class="textfield">
+                <input type="text" placeholder="검색어를 입력해주세요" />
+                <div class="icon-search bgtext"></div>
+                <div class="search-closer"></div>
+              </div>
+            </div>
+          </div>
+          <div class="icon-profile bgtext">프로필</div>
+          <div class="icon-menu bgtext">메뉴</div>                    
+        </div>        
+      </div>
+    </div>
+  </header>
+
+  <!-- Promotion Content -->
+  <div class="promotion">
+    <div class="inner">
+      <div class="slide_cover"></div>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./img/slide_4.png" alt="골프 프로모션"></div>
+          <div class="swiper-slide"><img src="./img/slide_5.png" alt="풋살장 프로모션"></div>        
+        </div>        
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-controllers">
+        <div class="swiper-prev">
+          <span class="material-icons">&lt;</span>
+        </div>
+        <div class="current-slide-indicator">
+          <span class="current-slide"></span>/<span class="total-slides"></span>
+        </div>
+        <span class="current-slide-play">►</span>
+        <div class="swiper-next">
+          <span class="material-icons">&gt;</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services Content -->
+  <div class="services">
+    <div class="inner">
+      <div class="cards">
+        <div class="card odd">
+          <img src="./img/hobby_golf.png" alt="골프" />
+          <div class="description"><center>골프</center></div>
+        </div>
+        <div class="card even">
+          <img src="./img/hobby_tennis.png" alt="테니스" />
+          <div class="description"><center>테니스</center></div>
+        </div>
+        <div class="card odd">
+          <img src="./img/hobby_footsal.png" alt="풋살" />
+          <div class="description"><center>축구/풋살</center></div>
+        </div>
+        <div class="card even">
+          <img src="./img/hobby_yoga.png" alt="요가" />
+          <div class="description"><center>요가</center></div>
+        </div>
+        <div class="card odd">
+          <img src="./img/hobby_fitness.png" alt="피트니스" />
+          <div class="description"><center>피트니스</center></div>
+        </div>
+        <div class="card even">
+          <img src="./img/hobby_running.png" alt="러닝" />
+          <div class="description"><center>러닝</center></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Users Content -->
+  <div class="user">
+    <div class="inner">
+      <h1>가장 많이 인증한 취미 Checker는 누구?</h1>
+      <div class="cards">
+        <div class="card-wrap">
+          <div class="card card1"></div>
+          <div class="username">checkme_nada</div>
+          <div class="location">
+            <div class="location-icon"></div>
+            <div class="location-name">강남구</div>
+          </div>
+          <div class="tags">#풋살 #강남풋살 #강남</div>
+        </div>
+        <div class="card-wrap">
+          <div class="card card2"></div>
+          <div class="username">golfgolfgolf</div>
+          <div class="location">
+            <div class="location-icon"></div>
+            <div class="location-name">용산구</div>
+          </div>
+          <div class="tags">#골프 #골프치는남자 #골프치는여자</div>
+        </div>
+        <div class="card-wrap">
+          <div class="card card3"></div>
+          <div class="username">body_fire</div>
+          <div class="location">
+            <div class="location-icon"></div>
+            <div class="location-name">강서구</div>
+          </div>
+          <div class="tags">#헬서 #강서헬스 #피트니스</div>
+        </div>
+        <div class="card-wrap">
+          <div class="card card4"></div>
+          <div class="username">checkme_nada</div>
+          <div class="location">
+            <div class="location-icon"></div>
+            <div class="location-name">송파구</div>
+          </div>
+          <div class="tags">#러닝 #송파러닝 #달리기</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Place Content -->
+  <div class="places">
+    <div class="inner">
+      <h1>취미 Checker들이 가장 많이 인증한 곳은 어디?</h1>
+      <div class="cards">
+        <div class="card-wrap">
+          <div class="card card1"></div>
+          <div class="place">
+            <div class="place-icon"></div>
+            <div class="placename">UDR 더 멤버스 잠실</div>
+          </div>
+          <div class="tags">골프 | 송파구</div>
+        </div>
+        <div class="card-wrap">
+          <div class="card card2"></div>
+          <div class="place">
+            <div class="place-icon"></div>
+            <div class="placename">용산 더 베이스</div>
+          </div>
+          <div class="tags">풋살축구 | 용산구</div>
+        </div>
+        <div class="card-wrap">
+          <div class="card card3"></div>
+          <div class="place">
+            <div class="place-icon"></div>
+            <div class="placename">에이와 강남</div>
+          </div>
+          <div class="tags">요가 | 강남구</div>
+        </div>
+        <div class="card-wrap">
+          <div class="card card4"></div>
+          <div class="place">
+            <div class="place-icon"></div>
+            <div class="placename">러너스클럽 양재</div>
+          </div>    
+          <div class="tags">러닝 | 강남구</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Today Content -->
+  <div class="today">
+    <div class="inner">
+      <h1>오늘의 취미 Checker! 취미 부자 소영님을 소개합니다.</h1>
+      <div class="section">
+        <img src="./img/today_pic.jpg" alt="테니스를 즐기는 Checker" />
+        <div class="description"></div>  
+      </d>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="inner">
+      <div class="footer-logo">
+        <img src="./img/logo.png" alt="CheckMe Logo" />
+        <div class="company_name">주식회사 메이크썸씽</div>
+      </div>
+      <ul class="footer-menu">
+        <li><a href="javascript:void(0)">이용약관</a></li>
+        <li><a href="javascript:void(0)">개인정보처리방침</a></li>
+        <li><a href="javascript:void(0)">고객문의</a></li>
+        <li><a href="javascript:void(0)">이메일문의</a></li>
+      </ul>
+      <div class="capany_address">
+        주소: 경기도 성남시 분당구 대왕판교로645번지 12, 9층 13호
+      </div>
+      <div class="footer-info-item">
+        대표이사: 이병현 | 사업자등록번호: 377-08-02656
+      </div>
+      <div class="contact"></div>
+  </footer>
+  
+</body>
+</html>
